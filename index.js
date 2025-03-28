@@ -62,10 +62,7 @@ messageForm.addEventListener('submit', function (event) {
    })});
 
 
-let projects = [
-    "Website Redesign",
-    "Web Application Redesign"
-]
+
 
 
 
