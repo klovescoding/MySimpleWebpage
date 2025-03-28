@@ -67,14 +67,7 @@ let projects = [
     "Web Application Redesign"
 ]
 
-let skillsSection = document.getElementById("projects");
-let skillsList = skillsSection.querySelector("ul");
 
-for (let i = 0; i < skills.length; i++) {
-    let skill = document.createElement("li")
-    skill.innerText = projects[i];
-    skillsList.appendChild(skill);
-}
 
 
 
