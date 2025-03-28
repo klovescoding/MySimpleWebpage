@@ -61,7 +61,24 @@ messageForm.addEventListener('submit', function (event) {
               
    })});
 
-   function fetchData(url) {
+
+let projects = [
+    "Website Redesign",
+    "Web Application Redesign"
+]
+
+let skillsSection = document.getElementById("projects");
+let skillsList = skillsSection.querySelector("ul");
+
+for (let i = 0; i < skills.length; i++) {
+    let skill = document.createElement("li")
+    skill.innerText = projects[i];
+    skillsList.appendChild(skill);
+}
+
+
+
+/*   function fetchData(url) {
       return fetch(url)
       .then(res => res.json())
       .catch(error => document.getElementById("projects").innerText = `${error}
@@ -81,5 +98,6 @@ messageForm.addEventListener('submit', function (event) {
        projectList.appendChild(project);
     }
    })
+   */
 
 
