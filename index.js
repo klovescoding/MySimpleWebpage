@@ -27,38 +27,6 @@ for (let i = 0; i < skills.length; i++) {
 }
 
 
-// Lesson 4.3
 
-let messageForm = document.querySelector('[name="leave_message"]');
-messageForm.addEventListener('submit', function (event) {
-  
-    let usersName = event.target.usersName
-    let usersEmail = document.querySelector('[name="usersEmail"]')
-    let usersMessage = document.querySelector('[name="usersMessage"]')
-   
-    event.preventDefault();
-     console.log(usersName.value)
-     console.log(usersEmail.value)
-     console.log(usersMessage.value)
-    
-     let messageSection = document.getElementById("messages")
-     let messageList = messageSection.querySelector("ul")
-     let newMessage = document.createElement("li")
-     newMessage.innerHTML = `<a href="mailto: ${usersEmail.value}">${usersName.value}</a> wrote: <span>${usersMessage.value}</span>`
-     let removeButton = document.createElement("button")
-     removeButton.innerHTML = `delete <input type="button">`
-     removeButton.classList.add("removeButton")
-   
-    newMessage.appendChild(removeButton);
-    messageList.appendChild(newMessage);
-
-     document.querySelector("form").reset()
-
-     removeButton.addEventListener('click', function () {
-        
-        let entry= removeButton.parentNode;
-        entry.remove();
-              
-   })});
 
 
