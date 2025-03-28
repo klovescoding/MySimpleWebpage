@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4GGHKR8FWR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4GGHKR8FWR');
+</script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <meta name="description" content="Discover the thrills of my life by viewing the work on my webpage.">
+    <link rel="icon" href="images/favicon.jpg?">
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+
+  <body>
+
+    <header class= "header">
+      <span id="logo" class ="header" class = "classNav"><a id="headerLogo" href ="#aboutMain">MY WEBPAGE</a></span>
+      <nav>
+        <ul id="nav" class= "header" class ="headerUL">
+          <li id ="home" class ="li" class="classNav"><a href ="#aboutMain"> HOME</a></li>
+          <li id = "work" class ="li" class="classNav"><a href ="#experience"> WORK</a></li>
+          <li id = "about" class ="li"class="classNav"><a href ="#aboutMain"> ABOUT </a></li>
+        </ul>
+      </nav>    
+    </header>
+    
+    <main>
+      
+      <section class = "section" id = "aboutMain" ><br>
+        <h1 class = "headlines">About</h1>
+        <p id ="welcome">Hey there ~ happy to have you drop by. You'll notice I am strongly dedicated to accessibility and enjoy web development. WELCOME! to my webpage—I hope you enjoy viewing my work.</p> 
+      </section>
+      
+      <section class = "section" id = "experience"><br>
+        <h1 class = "headlines">Experience</h1>
+        <ul id = "gridExp" class = "listItems">
+          <li class = "flexLi">AI Research</li>
+          <li class = "flexLi" >Accessibility</li>
+          <li class = "flexLi">UX Research</li>
+          <li class = "flexLi">UX Design</li>
+      </ul>  
+      </section> 
+      
+      <section class = "section" id ="skills"><br>
+        <h2 class = "headlines">Skills</h2>
+        <ul id = "gridSkills" class = "listItems"></ul>
+      </section>
+
+      <section section class = "section" id="projects">
+        <h2 class = "headlines">Projects</h2>
+        <ul id = "gridProj" class = "listItems"></ul>
+      </section>
+
+      <section id ="connect"><br>
+        <h1 id="connectHead">Connect</h1>
+        <p id="connectPara">Connect with me</p>
+      </section>
+
+    <section id = "messageMe"><br>
+      <h2 id="messageHead">Message me!</h2>
+      <form id= "form" name="leave_message">
+        <label for="name">Name:</label><br>
+        <input type="text" name = "usersName" required ="true"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" name = "usersEmail" required ="true"> <br><br>
+        <label for="message">Message:</label><br>
+        <textarea name = "usersMessage" required ="true"></textarea><br><br>
+        <button id= "sendButton" type = "submit">Send</button>
+      </form>
+    </section>
+
+    <section id = "messages"><br>
+      <h2 id="myMessages">My messages:</h2>
+      <ul></ul>
+    </section>
+
+    </main>
+
+    <br><br><br>
+
+   <footer><small></small></footer>
+
+    <script src="js/index.js"></script>
+
+  </body>
+</html>
