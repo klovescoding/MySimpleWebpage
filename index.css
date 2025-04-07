@@ -121,21 +121,6 @@ footer {
     width: 100%;
   } 
 
-  #messages{ 
-    display: grid;
-    border: 10px solid #007C7C;
-    float: right;
-    padding: 1%;
-    border-block-style: groove;
-    text-align: center;
-    margin-right: -55%;
-    margin-top: 34.5%;
-  }  
-
-  footer { 
-    position: relative;
-    bottom:-2%; 
-  } 
 }
 
 @media (max-width: 800px){
@@ -143,20 +128,6 @@ footer {
     font-size: 65%;
   }
 
-  #connect{
-    display: grid;  
-    padding:-1%;
-    margin-left: 80%;
-    margin-bottom: -65%; 
-  } 
-
-  #form{
-    display:flexbox;
-    font-size: small;
-    margin-top: 25%;
-    margin-left: 45%;;
-    width: 100%;   
-  }   
 
   #gridExp, #gridSkills{
     display:grid;
@@ -164,24 +135,7 @@ footer {
     width: 100%;
   } 
 
-  #sendButton{
-    margin-bottom:5%;
-    margin-left:82%;
-    padding: 0;
-    height: 10%;
-    width:25%;
-  }
-
-  #messages{
-    display: grid;
-    border: 10px solid #007C7C; 
-    padding: 1%;
-    border-block-style: groove;
-    text-align: center;
-    margin-right: -70%;
-    margin-top: 49.5%;
-  } 
-
+ 
   #skills{
     margin: 0 50% 75% 10%;  
   }
@@ -190,13 +144,6 @@ footer {
     margin: -65% 10% 60% 50%;  
   }
 
-  #messageHead{
-    margin-left: 40%;
-  }
-
-  #messageMe{
-    font-size: 150%; 
-  } 
 }
 
 @media (max-width: 480px){
@@ -210,22 +157,6 @@ footer {
     font-size: 80%;
   }
 
-  #messages{
-    display: grid;
-    border: 10px solid #007C7C; 
-    padding: 1%;
-    border-block-style: groove;
-    text-align: center;
-    margin-right: -90%;
-    margin-top: 60%; 
-  } 
-
-  #connect{
-    display: grid;  
-    padding:-1%;
-    margin-left: 80%;
-    margin-bottom: -115%; 
-  } 
 
   #projects{
     margin-bottom: 110%;
@@ -235,13 +166,6 @@ footer {
     margin: 10%;
   }
 
-  #sendButton{
-    margin-bottom:5%;
-    margin-left:70%;
-    padding: 0;
-    height: 10%;
-    width:40%;
-  }
 }
 
 @media (max-width: 370px){
@@ -266,41 +190,9 @@ footer {
     font-size: 80%;
   }
   
-  #messages{
-    display: grid;
-    border: 5px solid #007C7C; 
-    padding: 0;
-    border-block-style: groove;
-    text-align: center;
-    margin-right: -100%;
-    margin-top: 60%; 
-  } 
-
-  #connect{
-    display: grid;  
-    padding:-1%;
-    margin-left: 80%;
-    margin-bottom: -120%; 
-  } 
 
   #projects{
     margin-bottom: 120%;
   }
 
-  textarea, input{
-    width:100%;
-  } 
-
-  button{
-    font-size: 50%;
-  }
-
-  #messageHead{
-    font-size: 100%;
-  }
-
-  footer { 
-    position: relative;
-    bottom:-2%; 
-  } 
 }
