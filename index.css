@@ -11,51 +11,32 @@ html, body{
   font-size: 100%;
 }
 
-.header{
- background-color: #e8e8c1;
-  overflow: hidden;  
-  position: fixed;
-  top: 0;
-  width: 100%;  
-}
+ .header{
+    background-color:  #e8e8c1;
+     overflow: hidden;  
+     position: fixed;
+     top: 0;
+     width: 100%;  
+   }
 
-#logo{
-  float: left;
-  display: block;
-  color: #007C7C;
-  text-align: left;
-  padding: 1% 1% 1% 10%;
-  text-decoration: none;
-  font-size: 130%;
-  font-weight: bolder;
-}
+   #logo{
+    
+    display: block;
+    color: #007C7C;
+    text-align: center;
+    text-decoration: none;
+    font-size: 130%;
+    padding: 1%;
+    font-weight: bolder;
+  }
 
-#nav{
-  position: fixed;
-  right: -70%;
-  top: 0; 
-  width:100%;   
-}
 
-.header a:link, a:visited{
-  color: #007C7C;
-  text-decoration: none;
-}
-
-#headerLogo{
-  border: 2px solid #007C7C;
-  font-style: normal;
-  text-transform: none;
-}
-
-nav a:hover, a:active{
-  color:#5f9ea0;
-  border-bottom: 2px dotted #007C7C; 
-}
-
-#headerLogo a:hover, a:active{
-  color:#007C7C
-}
+  #headerLogo{
+    border: 2px solid #007C7C;
+    font-style: normal;
+    color: #007C7C;
+    text-decoration:none;
+  }
 
 li{
   list-style-type: none;
